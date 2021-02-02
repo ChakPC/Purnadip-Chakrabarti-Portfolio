@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+}
+
+#navbar::before{
+    content: "";
+    background-color: rgb(39, 67, 190);
+    position: absolute;
+    height: 134px;
+    width: 100%;
+    z-index: -1;
+    width: 100vw;
+
+}
+
+.logo{
+    margin: 20px 20px;
+}
+.logo img{
+    margin: 2px 2px;   
+    height: 86px;
+    border-radius: 30px;
+}
+
+#navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 2px 30px;
+}
+
+#navbar ul li{
+    margin: 2px 20px;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    padding: 10px 44px;
+    font-size: 1.4rem;
+    border-radius: 25px;
+    color: white;
+}
+
+#navbar ul li a:hover{
+    background-color: black;
+    /* animation: inc_size 0.1s ease-in 0s 1 forwards; */
+}
+
+/* @keyframes inc_size {
+    from{
+        font-size: 1.4rem;
+        padding-right: 44px;
+    }
+    to{
+        font-size: 1.6rem;
+        padding-right: 35px;
+    }
+} */
+
+#signature{
+    font-family: 'Pinyon Script', cursive;
+    margin-left: 20%;
+    font-size: 4.4rem;
+    color: whitesmoke;
+}
+
+#Background{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    content: "";
+    background: url('../Img/home-bg.jpg') no-repeat center center/cover;
+    /* position: absolute; */
+    height: 100vh;
+    width: 100vw;
+}
+
+#msg{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.6rem;
+    color: white;
+    margin-left: 670px;
+    margin-top: 250px;
+}
+
+#cursor{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.6rem;
+    color: white;
+    margin-top: 316px;
+    margin-left: -55px;
+    animation: 1s blinking step-end infinite;
+}
+
+@keyframes blinking {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: white;
+    }
+}
+
+.sec-end{
+    margin-top: 1.3rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+ 
+#AboutMe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#About-Img{
+    display: flex;
+    justify-content: center;
+    height: 20rem;
+}
+
+#About-Img img{
+    border-radius: 10rem;
+    margin: 2rem 2rem;
+}
+
+.About-Heading{
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    font-family: 'Pinyon Script', cursive;
+    color: rgb(39, 67, 190);
+    margin-bottom: 1rem;
+}
+
+.About-Box{
+    border: 2px solid rgb(39, 67, 190);
+    border-radius: 3rem;
+    margin: 3rem 10rem;
+    padding: 3rem 7rem;
+    animation: dec_size 0.2s ease-in 0s 1 forwards;
+}
+
+.About-Content{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.About-Box:hover{
+    /* box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem  rgb(39, 67, 190); */
+    /* transform: scale(1.05); */
+    animation: inc_size 0.2s ease-in 0s 1 forwards;
+}
+
+@keyframes inc_size {
+    from{
+        box-shadow: 0.5rem 0.5rem 0.05rem 0.05rem  rgb(39, 67, 190);
+    }
+    to{
+        box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem  rgb(39, 67, 190);
+        transform: scale(1.05);
+    }
+}
+
+@keyframes dec_size {
+    from{
+        box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem  rgb(39, 67, 190);
+        transform: scale(1.05);
+    }
+    to{
+        box-shadow: 0.5rem 0.5rem 0.05rem 0.05rem  rgb(39, 67, 190);
+    }
+}
+
+/* .About-Box::before{
+    content: "";
+    background-color: rgb(39, 67, 190);
+    position: relative;
+    height: 134px;
+    z-index: -3;
+    width: 100vw; 
+} */
+
+#Interests{
+    background-color: rgb(39, 67, 190);
+    width: 100vw;
+}
+
+#Interests h1{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: white;
+}
+
+.int-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 150vh;
+}
+
+.interestCards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:2px solid white;
+    border-radius: 3rem;
+    animation: dec_size_int 0.2s ease-in 0s 1 forwards;
+    width: 90vw;
+    height: 35vh;
+    background-color: white;
+}
+
+#imp-int{
+    height: 70vh;
+}
+
+.interestCards:hover{
+    /* box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem  rgb(39, 67, 190); */
+    /* transform: scale(1.05); */
+    animation: inc_size_int 0.2s ease-in 0s 1 forwards;
+}
+
+@keyframes inc_size_int {
+    from{
+        box-shadow: 0.01rem 0.01rem 0rem 0.05rem  white;
+    }
+    to{
+        box-shadow: 0.02rem 0.02rem 1rem 0.1rem  white;
+        transform: scale(1.05);
+    }
+}
+
+@keyframes dec_size_int {
+    from{
+        box-shadow: 0.02rem 0.02rem 1rem 0.1rem  white;
+        transform: scale(1.05);
+    }
+    to{
+        box-shadow: 0.01rem 0.01rem 0rem 0.05rem  white;
+    }
+}
+
+.interestCards img{
+    margin: 3rem 10rem;
+    width: 24vw;
+    border-radius: 3rem;
+}
+
+.int-text{
+    width: 26vw;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.int-text h2{
+    font-size: 2.5rem;
+}
+
+#Projects div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
