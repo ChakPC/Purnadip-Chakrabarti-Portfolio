@@ -486,7 +486,7 @@ footer div{
 
 @media(max-height: 400px){
     #Background{
-        background: url('../Img/home-bg.jpg') no-repeat top center/cover;
+        background: url('../Img/home-bg.jpg') no-repeat center center/cover;
         /* align-items: flex-end; */
     }
     #msg{
