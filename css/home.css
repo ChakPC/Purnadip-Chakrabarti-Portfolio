@@ -378,6 +378,18 @@ footer div{
         background-color: black;
     }
 }
+@media(max-height: 400px){
+    #Background{
+        background: url('../Img/home-bg.jpg') no-repeat top center/cover;
+        align-items: flex-end;
+    }
+    #msg{
+        padding-bottom: 7%;
+    }
+    #cursor{
+        padding-bottom: 6.75%;
+    }
+}
 
 @media(max-width:1500px) and (min-width:950px){
     #imp-int{
@@ -392,10 +404,10 @@ footer div{
         flex-direction: column;
     }
     #msg{
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     #cursor{
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     #navbar{
         flex-direction: column;
