@@ -378,18 +378,6 @@ footer div{
         background-color: black;
     }
 }
-@media(max-height: 400px){
-    #Background{
-        background: url('../Img/home-bg.jpg') no-repeat top center/cover;
-        align-items: flex-end;
-    }
-    #msg{
-        padding-bottom: 7%;
-    }
-    #cursor{
-        padding-bottom: 6.75%;
-    }
-}
 
 @media(max-width:1500px) and (min-width:950px){
     #imp-int{
@@ -481,6 +469,10 @@ footer div{
     footer h1{
         font-size: 4rem;
     }
+    #navbar ul{
+        margin: 0.1rem;
+        margin-bottom: 0.1rem;
+    }
 }
 
 @media(max-width: 375px){
@@ -489,5 +481,28 @@ footer div{
     }
     .interestCards img{
         width:20rem;
+    }
+}
+
+@media(max-height: 400px){
+    #Background{
+        background: url('../Img/home-bg.jpg') no-repeat top center/cover;
+        /* align-items: flex-end; */
+    }
+    #msg{
+        padding-bottom: 7%;
+        font-size: 1.2rem;
+    }
+    #cursor{
+        padding-bottom: 6.75%;
+        font-size: 1.2rem;
+    }
+    #navbar ul li a{
+        padding: 0.5rem 0.5rem;
+        font-size: 2rem;
+    }
+    #navbar ul{
+        margin: 0.1rem;
+        margin-bottom: 0.1rem;
     }
 }
