@@ -5,9 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Purnadip Chakrabarti</title>
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -27,46 +25,45 @@
             <li><a href="#AboutMestart">About Me</a></li>
             <li><a href="#Projectsstart">My Projects</a></li>
         </ul>
-        <div id="signature">
-            Purnadip Chakrabarti
-        </div>
     </nav>
-    <section id="Background">
-        <div id="msg" style="text-align: center;">
-            Hello World!!<br> 
-            I am <br>
-            Purnadip Chakrabarti<br>
-            and<br>
-            Welcome to my website
-        </div>
-        <div id="cursor">
-            <br><br><br><br>
-            _
-        </div>
-    </section>
-    <div class="sec-end" id="AboutMestart">
-        <img src="Img/section-end.jpeg" alt="">
-    </div>
-    <section id="AboutMe">
-        <section id="Intro" class="About-Box">
-            <h1 class="About-Heading">
-                Who am I?
-            </h1>
-            <div id="About-Img">
-                <img src="Img/logo.jpeg" alt="Hello Everyone!!" id="Aimg">
+    <div id="container">
+        <section id="Background">
+            <div id="msg" style="text-align: center;">
+                Hello World!!<br>
+                I am <br>
+                Purnadip Chakrabarti<br>
+                and<br>
+                Welcome to my website
             </div>
-            <div class="About-Content">
-                I am a student pursuing Bachelor of Technology focused on Computer Science and Engineering in Indian
-                Institute of Technology, Indore. <br><br>I am a big fan of programming and learning about new
-                technologies. I look forward to contribute to the largest tech innovations in the near future.
-                <br><br>Apart from tech, I also have a great passion in music and public speaking.
+            <div id="cursor">
+                <br><br><br><br>
+                _
             </div>
         </section>
-        <div class="sec-end">
+        <div class="sec-end" id="AboutMestart">
             <img src="Img/section-end.jpeg" alt="">
         </div>
+        <section id="AboutMe">
+            <section class="About-Box">
+                <h1 class="About-Heading">
+                    Who am I?
+                </h1>
+                <div id="About-Img">
+                    <img src="Img/logo.jpeg" alt="Hello Everyone!!" id="Aimg">
+                </div>
+                <div class="About-Content">
+                    I am a student pursuing Bachelor of Technology focused on Computer Science and Engineering in Indian
+                    Institute of Technology, Indore. <br><br>I am a big fan of programming and learning about new
+                    technologies. I look forward to contribute to the largest tech innovations in the near future.
+                    <br><br>Apart from tech, I also have a great passion in music and public speaking.
+                </div>
+            </section>
+            <div class="sec-end">
+                <img src="Img/section-end.jpeg" alt="">
+            </div>
+        </section>
         <section id="Interests">
-            <h1 class="About-Heading">
+            <h1 id="int-head">
                 My Interests and Skills
             </h1>
             <div class="int-box">
@@ -79,7 +76,7 @@
                         I have explored fields like Machine Learning and Web-Development and I also have some experience
                         with Android App Development. I also regularly participate in Competitive Programming.<br><br>My
                         tech stack includes
-                        <ul style="text-align: left; font-style: italic;">
+                        <ul style="font-style: italic; text-align: center;">
                             <li>Programming Languages: <div>C++, Python, Kotlin</div>
                             </li>
                             <li>Machine Learning: <div>Python, Tensorflow</div>
@@ -104,7 +101,7 @@
                         like singing and listening to music is one of my favourite hobbies.
                     </div>
                 </card>
-                <card class="interestCards">
+                <card class="interestCards" style="margin-bottom: 2rem;">
                     <img src="Img/speaking.jpg" alt="">
                     <div class="int-text">
                         <h2 class="About-Heading">
@@ -117,212 +114,211 @@
                 </card>
             </div>
         </section>
-    </section>
-    <div class="sec-end" id="Projectsstart">
-        <img src="Img/section-end.jpeg" alt="">
-    </div>
-    <section id="Projects">
-        <h1 class="About-Heading">
-            My Projects
-        </h1>
-        <div>
-            <card class="About-Box" style="align-self: flex-start">
-                <div class="About-Heading" style="font-size: 2.5rem; font-family: 'Roboto Mono', monospace;">Machine
-                    Learning and Image Processing</div>
-            </card>
-            <card class="Project-Box">
-                <div>
-                    <img src="Img/recommender.jpg" alt="" class="Pro-img">
-                </div>
-                <div>
-                    <div class="Pro-head">
-                        Apparrel-Product Recommender System
-                    </div>
-                    <div class="Pro-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptate ad tenetur? Quasi
-                        ullam rem alias at voluptates perferendis quaerat!
-                    </div>
-                </div>
-                <a href="https://github.com/ChakPC/Apparel-Product-Recommendation-System" target="_blank"><img
-                        src="Img/github.png" alt="Github Link"></a>
-            </card>
-            <card class="Project-Box">
-                <div>
-                    <img src="Img/clustering.jpg" alt="" class="Pro-img" style="width: 10rem;">
-                </div>
-                <div>
-                    <div class="Pro-head">
-                        Dominant Color Extraction
-                    </div>
-                    <div class="Pro-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptate ad tenetur? Quasi
-                        ullam rem alias at voluptates perferendis quaerat!
-                    </div>
-                </div>
-                <a href="https://github.com/ChakPC/Dominant_Color_Extraction" target="_blank"><img src="Img/github.png"
-                        alt="Github Link"></a>
-            </card>
-            <card class="Project-Box">
-                <div>
-                    <img src="Img/facerecog.jpg" alt="" class="Pro-img" style="width: 16rem;">
-                </div>
-                <div>
-                    <div class="Pro-head">
-                        Face Recognition System
-                    </div>
-                    <div class="Pro-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptate ad tenetur? Quasi
-                        ullam rem alias at voluptates perferendis quaerat!
-                    </div>
-                </div>
-                <a href="https://github.com/ChakPC/Face_Recognition" target="_blank"><img src="Img/github.png"
-                        alt="Github Link"></a>
-            </card>
-            <card class="Project-Box">
-                <div>
-                    <img src="Img/Jamie_After.jpg" alt="" class="Pro-img" style="width: 8rem;">
-                </div>
-                <div>
-                    <div class="Pro-head">
-                        Snapchat Filter
-                    </div>
-                    <div class="Pro-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptate ad tenetur? Quasi
-                        ullam rem alias at voluptates perferendis quaerat!
-                    </div>
-                </div>
-                <a href="https://github.com/ChakPC/Snapchat_Filter" target="_blank"><img src="Img/github.png"
-                        alt="Github Link"></a>
-            </card>
-            <card class="Project-Box">
-                <div>
-                    <img src="Img/digitrecog.jpg" alt="" class="Pro-img" style="width: 18rem;">
-                </div>
-                <div>
-                    <div class="Pro-head">
-                        Handwritten Digit Recognition
-                    </div>
-                    <div class="Pro-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptate ad tenetur? Quasi
-                        ullam rem alias at voluptates perferendis quaerat!
-                    </div>
-                </div>
-                <a href="https://github.com/ChakPC/Handwritten_Digit_Recognition" target="_blank"><img
-                        src="Img/github.png" alt="Github Link"></a>
-            </card>
-            <card class="Project-Box">
-                <div>
-                    <img src="Img/invisiblecloak.jpg" alt="" class="Pro-img" style="width: 18rem;">
-                </div>
-                <div>
-                    <div class="Pro-head">
-                        Invisible Cloak
-                    </div>
-                    <div class="Pro-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptate ad tenetur? Quasi
-                        ullam rem alias at voluptates perferendis quaerat!
-                    </div>
-                </div>
-                <a href="https://github.com/ChakPC/Invisible_Cloak" target="_blank"><img src="Img/github.png"
-                        alt="Github Link"></a>
-            </card>
-            <card class="Project-Box">
-                <div>
-                    <img src="Img/diabetes.jpg" alt="" class="Pro-img" style="width: 16rem;">
-                </div>
-                <div>
-                    <div class="Pro-head">
-                        Diabetes Classification
-                    </div>
-                    <div class="Pro-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptate ad tenetur? Quasi
-                        ullam rem alias at voluptates perferendis quaerat!
-                    </div>
-                </div>
-                <a href="https://github.com/ChakPC/Diabetes_Classification" target="_blank"><img src="Img/github.png"
-                        alt="Github Link"></a>
-            </card>
-            <card class="Project-Box">
-                <div>
-                    <img src="Img/airquality.jpg" alt="" class="Pro-img" style="width: 16rem;">
-                </div>
-                <div>
-                    <div class="Pro-head">
-                        Air Quality Index Prediction
-                    </div>
-                    <div class="Pro-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptate ad tenetur? Quasi
-                        ullam rem alias at voluptates perferendis quaerat!
-                    </div>
-                </div>
-                <a href="https://github.com/ChakPC/Air_Quality_Prediction" target="_blank"><img src="Img/github.png"
-                        alt="Github Link"></a>
-            </card>
-            <card class="About-Box" style="align-self: flex-start">
-                <div class="About-Heading" style="font-size: 2.5rem; font-family: 'Roboto Mono', monospace;">
-                    Web-Development</div>
-            </card>
-            <card class="Project-Box">
-                <div>
-                    <img src="Img/onlineedu.jpg" alt="" class="Pro-img" style="width: 16rem;">
-                </div>
-                <div>
-                    <div class="Pro-head">
-                        Online Education Portal
-                    </div>
-                    <div class="Pro-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptate ad tenetur? Quasi
-                        ullam rem alias at voluptates perferendis quaerat!
-                    </div>
-                </div>
-                <a href="https://github.com/ChakPC/Online-Education-Portal" target="_blank"><img src="Img/github.png"
-                        alt="Github Link"></a>
-            </card>
-            <card class="Project-Box">
-                <div>
-                    <img src="Img/portfolio.jpg" alt="" class="Pro-img" style="width: 16rem;">
-                </div>
-                <div>
-                    <div class="Pro-head">
-                        My Portfolio Website
-                    </div>
-                    <div class="Pro-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptate ad tenetur? Quasi
-                        ullam rem alias at voluptates perferendis quaerat!
-                    </div>
-                </div>
-                <a href="https://github.com/ChakPC/Purnadip-Chakrabarti-Portfolio" target="_blank"><img
-                        src="Img/github.png" alt="Github Link"></a>
-            </card>
-            <card class="About-Box" style="align-self: flex-start">
-                <div class="About-Heading" style="font-size: 2.5rem; font-family: 'Roboto Mono', monospace;">Android App
-                    Development</div>
-            </card>
-            <card class="Project-Box">
-                <div>
-                    <img src="Img/dice.jpg" alt="" class="Pro-img" style="width: 16rem;">
-                </div>
-                <div>
-                    <div class="Pro-head">
-                        Dice Roller App
-                    </div>
-                    <div class="Pro-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptate ad tenetur? Quasi
-                        ullam rem alias at voluptates perferendis quaerat!
-                    </div>
-                </div>
-                <a href="#" target="_blank"><img src="Img/github.png" alt="Github Link"></a>
-            </card>
-            <card class="Project-Box" style="margin-top: 2rem;">
-                <div class="Pro-text" style="font-style: italic;">
-                    More Projects Coming Soon...
-                </div>
+        <div class="sec-end" id="Projectsstart">
+            <img src="Img/section-end.jpeg" alt="">
         </div>
-        </card>
+        <section id="Projects">
+            <h1 class="About-Heading">
+                My Projects
+            </h1>
+            <div>
+                <card class="About-Box">
+                    <div class="About-Heading" style="font-size: 2.5rem; font-family: 'Roboto Mono', monospace;">Machine
+                        Learning and Image Processing</div>
+                </card>
+                <card class="Project-Box">
+                    <div>
+                        <img src="Img/recommender.jpg" alt="" class="Pro-img">
+                    </div>
+                    <div>
+                        <div class="Pro-head">
+                            Apparrel-Product Recommender System
+                        </div>
+                        <div class="Pro-text">
+                            A project on Natural Language Processing which recommends similar apparrels based on the
+                            text description of the current choice.
+                        </div>
+                    </div>
+                    <a href="https://github.com/ChakPC/Apparel-Product-Recommendation-System" target="_blank"
+                        class="Pro-git"><img src="Img/github.png" alt="Github Link"></a>
+                </card>
+                <card class="Project-Box">
+                    <div>
+                        <img src="Img/clustering.jpg" alt="" class="Pro-img">
+                    </div>
+                    <div>
+                        <div class="Pro-head">
+                            Dominant Color Extraction
+                        </div>
+                        <div class="Pro-text">
+                            A project on K-Means Clustering Algorithm which extracts the most dominant colors from an
+                            image
+                        </div>
+                    </div>
+                    <a href="https://github.com/ChakPC/Dominant_Color_Extraction" target="_blank" class="Pro-git"><img
+                            src="Img/github.png" alt="Github Link"></a>
+                </card>
+                <card class="Project-Box">
+                    <div>
+                        <img src="Img/facerecog.jpg" alt="" class="Pro-img">
+                    </div>
+                    <div>
+                        <div class="Pro-head">
+                            Face Recognition System
+                        </div>
+                        <div class="Pro-text">
+                            A project on KNN Algorithm to recognize faces based on previously stored data of faces
+                        </div>
+                    </div>
+                    <a href="https://github.com/ChakPC/Face_Recognition" target="_blank" class="Pro-git"><img
+                            src="Img/github.png" alt="Github Link"></a>
+                </card>
+                <card class="Project-Box">
+                    <div>
+                        <img src="Img/Jamie_After.jpg" alt="" class="Pro-img">
+                    </div>
+                    <div>
+                        <div class="Pro-head">
+                            Snapchat Filter
+                        </div>
+                        <div class="Pro-text">
+                            A project on Image Segmentation which detects eyes and nose and replaces the acurate portion
+                            of the image by the filters
+                        </div>
+                    </div>
+                    <a href="https://github.com/ChakPC/Snapchat_Filter" target="_blank" class="Pro-git"><img
+                            src="Img/github.png" alt="Github Link"></a>
+                </card>
+                <card class="Project-Box">
+                    <div>
+                        <img src="Img/digitrecog.jpg" alt="" class="Pro-img">
+                    </div>
+                    <div>
+                        <div class="Pro-head">
+                            Handwritten Digit Recognition
+                        </div>
+                        <div class="Pro-text">
+                            A project on KNN algorithm which recognizes a single handwritten digit based on the MNIST
+                            handwritten digits training data-set
+                        </div>
+                    </div>
+                    <a href="https://github.com/ChakPC/Handwritten_Digit_Recognition" target="_blank"
+                        class="Pro-git"><img src="Img/github.png" alt="Github Link"></a>
+                </card>
+                <card class="Project-Box">
+                    <div>
+                        <img src="Img/invisiblecloak.jpg" alt="" class="Pro-img">
+                    </div>
+                    <div>
+                        <div class="Pro-head">
+                            Invisible Cloak
+                        </div>
+                        <div class="Pro-text">
+                            A project on Color Segmentation which detects a red colored cloth and replaces that portion
+                            with the background image giving the effect of Harry Potter's famous Invisible Cloak
+                        </div>
+                    </div>
+                    <a href="https://github.com/ChakPC/Invisible_Cloak" target="_blank" class="Pro-git"><img
+                            src="Img/github.png" alt="Github Link"></a>
+                </card>
+                <card class="Project-Box">
+                    <div>
+                        <img src="Img/diabetes.jpg" alt="" class="Pro-img">
+                    </div>
+                    <div>
+                        <div class="Pro-head">
+                            Diabetes Classification
+                        </div>
+                        <div class="Pro-text">
+                            A project on Logistic Regression which predicts if the patient is diabetic or not based on
+                            different factors
+                        </div>
+                    </div>
+                    <a href="https://github.com/ChakPC/Diabetes_Classification" target="_blank" class="Pro-git"><img
+                            src="Img/github.png" alt="Github Link"></a>
+                </card>
+                <card class="Project-Box">
+                    <div>
+                        <img src="Img/airquality.jpg" alt="" class="Pro-img">
+                    </div>
+                    <div>
+                        <div class="Pro-head">
+                            Air Quality Index Prediction
+                        </div>
+                        <div class="Pro-text">
+                            A project on Linear Regression which predicts the AQI(Air Quality Index) based on different
+                            factors
+                        </div>
+                    </div>
+                    <a href="https://github.com/ChakPC/Air_Quality_Prediction" target="_blank" class="Pro-git"><img
+                            src="Img/github.png" alt="Github Link"></a>
+                </card>
+                <card class="About-Box">
+                    <div class="About-Heading" style="font-size: 2.5rem; font-family: 'Roboto Mono', monospace;">
+                        Web-Development</div>
+                </card>
+                <card class="Project-Box">
+                    <div>
+                        <img src="Img/onlineedu.jpg" alt="" class="Pro-img">
+                    </div>
+                    <div>
+                        <div class="Pro-head">
+                            Online Education Portal
+                        </div>
+                        <div class="Pro-text">
+                            A team project which solves many problems faced by both students and teachers in Online
+                            Education. <br>
+                            Contributors other than me: Vaibhav Chandra, Komal Kumar and Priyanshu Uttam
+                        </div>
+                    </div>
+                    <a href="https://github.com/ChakPC/Online-Education-Portal" target="_blank" class="Pro-git"><img
+                            src="Img/github.png" alt="Github Link"></a>
+                </card>
+                <card class="Project-Box">
+                    <div>
+                        <img src="Img/portfolio.jpg" alt="" class="Pro-img">
+                    </div>
+                    <div>
+                        <div class="Pro-head">
+                            My Portfolio Website
+                        </div>
+                        <div class="Pro-text">
+                            A project which you are currently looking at and this is my portfolio website.
+                        </div>
+                    </div>
+                    <a href="https://github.com/ChakPC/Purnadip-Chakrabarti-Portfolio" target="_blank"
+                        class="Pro-git"><img src="Img/github.png" alt="Github Link"></a>
+                </card>
+                <card class="About-Box">
+                    <div class="About-Heading" style="font-size: 2.5rem; font-family: 'Roboto Mono', monospace;">Android
+                        App
+                        Development</div>
+                </card>
+                <card class="Project-Box">
+                    <div>
+                        <img src="Img/dice.jpg" alt="" class="Pro-img">
+                    </div>
+                    <div>
+                        <div class="Pro-head">
+                            Dice Roller App
+                        </div>
+                        <div class="Pro-text">
+                            A simple android app to roll a dice and randomly generate numbers from 1 to 6.
+                        </div>
+                    </div>
+                    <a href="https://github.com/ChakPC/Dice-Roller-App" target="_blank" class="Pro-git"><img
+                            src="Img/github.png" alt="Github Link"></a>
+                </card>
+                <card class="Project-Box" style="margin-top: 2rem;">
+                    <div class="Pro-text" style="font-style: italic;">
+                        More Projects Coming Soon...
+                    </div>
+                </card>
+            </div>
+        </section>
+        <div class="sec-end">
+            <img src="Img/section-end.jpeg" alt="">
         </div>
-    </section>
-    <div class="sec-end">
-        <img src="Img/section-end.jpeg" alt="">
     </div>
     <footer>
         <h1>
@@ -338,33 +334,6 @@
         </div>
     </footer>
 </body>
-<script>
-    $(document).ready(function () {
-        // Add scrollspy to <body>
-        $('body').scrollspy({ target: ".navbar", offset: 50 });
 
-        // Add smooth scrolling on all links inside the navbar
-        $("#myNavbar a").on('click', function (event) {
-            // Make sure this.hash has a value before overriding default behavior
-            if (this.hash !== "") {
-                // Prevent default anchor click behavior
-                event.preventDefault();
-
-                // Store hash
-                var hash = this.hash;
-
-                // Using jQuery's animate() method to add smooth page scroll
-                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-                $('html, body').animate({
-                    scrollTop: $(hash).offset().top
-                }, 800, function () {
-
-                    // Add hash (#) to URL when done scrolling (default click behavior)
-                    window.location.hash = hash;
-                });
-            }  // End if
-        });
-    });
-</script>
 
 </html>
