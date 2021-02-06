@@ -123,7 +123,6 @@ body {
     display: flex;
     justify-content: center;
     height: 20rem;
-    z-index: 2;
 }
 
 #Aimg{
@@ -250,7 +249,7 @@ body {
     font-size: 2.5vw;
 }
 
-.int-text ul li div{
+.int-text div ul li div{
     color: rgb(39, 67, 190);
 }
 
@@ -356,6 +355,12 @@ footer div{
     justify-content: center;
 }
 
+#Int-tech{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 @media(min-width: 1500px){
     .Project-Box:hover{
         /* box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem  rgb(39, 67, 190); */
@@ -384,7 +389,16 @@ footer div{
         flex-direction: column;
         margin-top: 2rem;
     }
-
+    #About-Img{
+        display: flex;
+        justify-content: center;
+        height: 20rem;
+    }
+    
+    #Aimg{
+        border-radius: 10rem;
+        margin: 2rem 0rem;
+    }
 }
 
 @media(max-width: 950px){
@@ -473,6 +487,21 @@ footer div{
         margin: 0.1rem;
         margin-bottom: 0.1rem;
     }
+    #Int-tech{
+        flex-direction: column;
+        justify-content: unset;
+        align-items: unset;
+    }
+    #About-Img{
+        display: flex;
+        justify-content: center;
+        height: 20rem;
+    }
+    
+    #Aimg{
+        border-radius: 10rem;
+        margin: 2rem 0rem;
+    }
 }
 
 @media(max-width: 375px){
@@ -481,6 +510,16 @@ footer div{
     }
     .interestCards img{
         width:20rem;
+    }
+    #About-Img{
+        display: flex;
+        justify-content: center;
+        height: 20rem;
+    }
+    
+    #Aimg{
+        border-radius: 10rem;
+        margin: 2rem 0rem;
     }
 }
 
@@ -504,5 +543,18 @@ footer div{
     #navbar ul{
         margin: 0.1rem;
         margin-bottom: 0.1rem;
+    }
+    #Int-tech{
+        flex-direction: column;
+    }
+    #About-Img{
+        display: flex;
+        justify-content: center;
+        height: 20rem;
+    }
+    
+    #Aimg{
+        border-radius: 10rem;
+        margin: 2rem 0rem;
     }
 }
