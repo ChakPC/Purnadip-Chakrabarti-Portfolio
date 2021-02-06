@@ -122,12 +122,12 @@ body {
 #About-Img{
     display: flex;
     justify-content: center;
-    height: 20rem;
 }
 
 #Aimg{
     border-radius: 10rem;
     margin: 2rem 0rem;
+    height: 20rem;
 }
 
 .About-Heading{
@@ -392,12 +392,12 @@ footer div{
     #About-Img{
         display: flex;
         justify-content: center;
-        height: 20rem;
     }
     
     #Aimg{
         border-radius: 10rem;
         margin: 2rem 0rem;
+        height: 20rem;
     }
 }
 
@@ -495,12 +495,12 @@ footer div{
     #About-Img{
         display: flex;
         justify-content: center;
-        height: 20rem;
     }
     
     #Aimg{
         border-radius: 10rem;
         margin: 2rem 0rem;
+        height: 20rem;
     }
 }
 
@@ -514,12 +514,12 @@ footer div{
     #About-Img{
         display: flex;
         justify-content: center;
-        height: 20rem;
     }
     
     #Aimg{
         border-radius: 10rem;
         margin: 2rem 0rem;
+        height: 20rem;
     }
 }
 
@@ -550,11 +550,11 @@ footer div{
     #About-Img{
         display: flex;
         justify-content: center;
-        height: 20rem;
     }
     
     #Aimg{
         border-radius: 10rem;
         margin: 2rem 0rem;
+        height: 20rem;
     }
 }
